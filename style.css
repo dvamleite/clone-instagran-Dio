@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 900px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.cont{
+    width: 50%;
+    min-height: 34rem;  
+}
+
+.perfil{
+    width: 100%;
+    min-height: 24rem;
+    padding: 1rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.logo {  
+    height: 30rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.loguin{
+    width: 210px;
+    height: 35px;
+    margin: 1rem;
+    padding: 8px;
+    background-color: #0095f6;
+    color: #ffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.logout{
+    color: #0095f6;
+    margin: 14px;
+}
+
+.cel{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cel img{    
+    height: 50rem;
+}
+
+.options{
+    width: 100%;    
+    height: 60px;
+    padding: 1rem;
+    background-color: #ffff;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameinf{       
+    margin-bottom: .5rem;
+    color: rgb(160, 160, 160);
+} 
+
+.options span{
+    color: #0095f6;      
+}
+
+.baixa{    
+    margin-top: 1rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.baixa span{
+    font: bold;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.boximg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.boximg img{
+    width: 140px;
+    height: 42px;
+
+    margin-left: 1rem;
+}
+
+@media(max-width: 1024){
+ .conteiner{
+     width: 90%;
+ }
+}
+
+@media(max-width: 650px){
+
+    .conteiner{
+        flex-direction: column;      
+    }
+
+    .options{
+        width: 100%;
+      
+    }
+
+    .cel img{
+        display: none;
+    }
+
+    .options .perfil{
+        border: 1px solid rgb(131, 126, 126);
+    }
+    
+}
