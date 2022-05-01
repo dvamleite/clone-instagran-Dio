@@ -45,7 +45,17 @@ body{
 }
 
 .logo {  
-    height: 30rem;
+    width: 100%;
+    height: 100px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo img{
+    width: 35%;
+    min-height: 3rem;
+    border-radius: 0;
 }
 
 a{
@@ -141,6 +151,10 @@ a{
         flex-direction: column;      
     }
 
+    .cont{
+        width: 90%;
+    }
+
     .options{
         width: 100%;
       
@@ -152,6 +166,11 @@ a{
 
     .options .perfil{
         border: 1px solid rgb(131, 126, 126);
+    }
+
+    .loguin{
+        width: 70%;
+        font-size: 16px;
     }
     
 }
