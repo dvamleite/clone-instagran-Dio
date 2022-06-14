@@ -12,6 +12,7 @@
 
 ## Rodando o projeto
 
+- `git clone https://github.com/dvamleite/clone-instagran-Dio.git`
 - `npm install`
 - `npm run build`
 - `npm run dev`
