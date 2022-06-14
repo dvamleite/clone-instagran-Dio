@@ -9,3 +9,9 @@
 
 ![Clone Instagram-Dio - Pessoal — Microsoft​ Edge 01_05_2022 00_00_38](https://user-images.githubusercontent.com/66497989/166130374-3c25286d-0616-4db8-b365-32e63ad5709f.png)
 ![Clone Instagram-Dio - Pessoal — Microsoft​ Edge 01_05_2022 00_00_10](https://user-images.githubusercontent.com/66497989/166130375-39f43604-e817-4726-b70f-49571c58613b.png)
+
+## Rodando o projeto
+
+- `npm install`
+- `npm run build`
+- `npm run dev`
